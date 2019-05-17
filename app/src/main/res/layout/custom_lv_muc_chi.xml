@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:weightSum="10">
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:src="@drawable/phannhom" />
+
+    <TextView
+        android:id="@+id/tvTenLoaiChi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="7"
+        android:gravity="left"
+        android:text="Ten loai chi" />
+
+    <ImageView
+        android:id="@+id/imvSua"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:src="@drawable/edit" />
+
+    <ImageView
+        android:id="@+id/imvXoa"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:src="@drawable/delete" />
+
+
+</LinearLayout>

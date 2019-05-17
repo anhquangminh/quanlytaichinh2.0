@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/customitem"
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/phannhom" />
+
+        <TextView
+            android:id="@+id/tvTen"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="Ten Loai Chi"
+            android:textColor="#000"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/money1" />
+
+        <TextView
+            android:id="@+id/tvSoTien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="Ten So tien chi"
+            android:textColor="#000"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>
